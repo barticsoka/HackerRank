@@ -1,3 +1,11 @@
+# Regex
+```Python
+print('YES' if re.search(r'.*h.*a.*c.*k.*e.*r.*r.*a.*n.*k.*',input().strip()) else 'NO')
+print('YES' if re.search(r'.*?'.join(list("hackerrank")),input().strip()) else 'NO')
+
+'.*?'.join(list("hackerrank")) # same as '.*h.*a.*c.*k.*e.*r.*r.*a.*n.*k.*'
+```
+
 # Tips
 Use lookup lists
 
@@ -12,7 +20,6 @@ for i in range(int(input())):
         if(result <= n):
             count += 1
     print(count)
-
 ```
 
 # Prime Implementations
